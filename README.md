@@ -1,6 +1,6 @@
 # Assignment 8: Logistic Regression
-
 ---
+[Watch the video](https://youtu.be/QCHgDCcHTsQ)
 
 **Goals**:
 
