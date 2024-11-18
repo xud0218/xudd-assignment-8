@@ -17,7 +17,7 @@ def generate_ellipsoid_clusters(distance, n_samples=100, cluster_std=0.5):
     y1 = np.zeros(n_samples)
 
     # Generate the second cluster (class 1) and shift it by the specified distance
-    X2 = np.random.multivariate_normal(mean=[1 + distance, 1 + distance], cov=covariance_matrix, size=n_samples)
+    X2 = np.random.multivariate_normal(mean=[1 + distance, 1 - distance], cov=covariance_matrix, size=n_samples)
     y2 = np.ones(n_samples)
 
     # Combine the clusters into one dataset
